@@ -1,0 +1,100 @@
+:root{
+
+    --var--text-normal:1.5rem;
+    --var--text-minor:1rem;
+    --var--text-tiny:.8rem;
+
+    --var-grey-dark:#464646;
+    --var-grey-ligth:#bebebe;
+}
+
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+.search-hide{
+    display: none;
+}
+
+body{
+    width: 100vw;
+}
+
+h3{
+    text-align: left;
+}
+
+
+.search-container{
+    text-align: center;
+    background-color: var(--var-grey-ligth);
+    width: 100%;
+    margin-bottom:2rem;
+}
+
+input{
+    font-size: var(--var--text-normal);
+    padding: .3rem;
+    border: 1px solid black;
+}
+
+.biller{
+    background-color: #464646;
+    margin: auto;
+    text-align: center;
+    width: 80%;
+    height: 400px;
+}
+
+thead{
+    background-color: var(--var-grey-dark);
+}
+
+thead td{
+    font-size: var(--var--text-minor);
+    color: white;
+    text-align: center;
+    width: 10%;
+}
+
+
+.biller-body td{
+    text-align: center;
+    background-color: white;
+    text-wrap:nowrap;
+    text-overflow: ellipsis;
+    font-size: var(--var--text-minor);
+}
+
+.biller-body :last-child{
+    font-weight: 900s;
+    font-style: italic;
+}
+
+.cell-product{
+    text-align: center;
+    width: 50%;
+}
+
+td p{
+    background-color: var(--var-grey-ligth);
+}
+
+.edit{
+    
+}
+
+.biller-footer{
+    width:50%;
+}
+.td-sold{
+    width: 50%;
+}
+.sold{
+    width: 100%;
+    font-weight: bold;
+    font-size: var(--var--text-minor);
+    height: 3rem;
+}
